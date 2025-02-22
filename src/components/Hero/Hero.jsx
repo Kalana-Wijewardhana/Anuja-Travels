@@ -7,7 +7,7 @@ const Hero = () => {
     <div className=" bg-black/20 h-full">
       <div className="h-full flex justify-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
-          <div className="text-white">
+          {/* <div className="text-white">
             <p data-aos="fade-up" className="text-sm">
               Our Packages
             </p>
@@ -18,7 +18,7 @@ const Hero = () => {
             >
               Search Your Destination
             </p>
-          </div>
+          </div> */}
           <div
             data-aos="fade-up"
             data-aos-delay="600"

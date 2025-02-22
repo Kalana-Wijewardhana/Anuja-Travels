@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
+// import Hero from "../components/Hero/Hero";
 import NatureVid from "../assets/video/main.mp4";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import Places from "../components/Places/Places";
@@ -28,7 +28,7 @@ const Home = () => {
           >
             <source src={NatureVid} type="video/mp4" />
           </video>
-          <Hero />
+          {/* <Hero /> */}
         </div>
         <Places handleOrderPopup={handleOrderPopup} />
         <BannerPic img={BannerImg} />
